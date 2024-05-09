@@ -5,8 +5,7 @@ notas entre 5.0 e 7,0 ou a mensagem de REPROVADO para média inferior a 5,0.*/
 
 //1 passo: digitar 4 notas de um aluno
 //2 passo: calcular a média aritmética das notas
-//3 passo: exibir mensagem de imprimindo o boletim
-//4 passo: exibir
+//3 passo: exibir mensagem se o aluno foi aprovado ou não (em recuperacao ou reprovado) de acordo com sua média
 
 let nota1 = parseFloat(prompt("Digite a primeira nota do aluno: ")); 
 

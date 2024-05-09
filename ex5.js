@@ -3,6 +3,9 @@ Escreva um programa que solicita três números ao usuário e verifica se eles e
 crescente. Exibindo uma mensagem indicando se os números estão em ordem crescente ou
 não.*/
 
+//1 passo: solicitar tres números diferentes
+//2 passo: exibir mensagem se os números são crescentes ou não
+
 let num1 = prompt("Digite um número: ");
 
 let num2 = prompt("Digite outro número: ");
