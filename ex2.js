@@ -10,16 +10,22 @@ let diaSemana = prompt("Digite um número de 1 a 7: ");
 
 if (diaSemana == 1) {
     console.log("Segunda-feira");
-} else if (diaSemana == 2) {
+} 
+else if (diaSemana == 2) {
     console.log("Terça-feira");
-} else if (diaSemana == 3) {
+} 
+else if (diaSemana == 3) {
     console.log("Quarta-feira");
-} else if (diaSemana == 4) {
+} 
+else if (diaSemana == 4) {
     console.log("Quinta-feira");
-} else if (diaSemana == 5) {
+} 
+else if (diaSemana == 5) {
     console.log("Sexta-feira");
-} else if (diaSemana == 6) {
+} 
+else if (diaSemana == 6) {
     console.log("Sábado");
-} else if (diaSemana == 7) {
+} 
+else if (diaSemana == 7) {
     console.log("Domingo");
 }
