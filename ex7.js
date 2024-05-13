@@ -12,11 +12,11 @@ let valorTotal = parseFloat(prompt ("Digite o valor total da compra: "));
 
 let desconto;
 
-if (valorTotal <= 100) {
+if (valorTotal <= 100){
     desconto = 0;
     console.log("O valor de desconto foi: " + desconto);
 }
-else if (valorTotal <= 200) {
+else if (valorTotal <= 200){
     desconto = 0.1;
     console.log("O valor de desconto foi: " + (desconto * 100) + "%");
 }
