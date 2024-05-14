@@ -8,4 +8,3 @@ while (numero <= 18){
     numero +=2
     console.log(numero);
 }
-
