@@ -2,10 +2,13 @@
 
 // de bom dia para alguém 
 
-/*let nomePessoa = prompt("Digite o seu nome: ");
+let nomePessoa = prompt("Digite o seu nome: ");
 
 window.alert("Bom dia, " + nomePessoa + "!");
 
+//Hoisting -> usa funções (functions) e variáveis (var) antes da declaração
+
+// Declaração da função -> mostra ao computador o que será realizado
 function saudacao() { // define um nome e coisas a serem executadas dentro dele
     let nomePessoa = prompt("Digite o seu nome: ")
 
@@ -23,6 +26,7 @@ function saudacao() { // define um nome e coisas a serem executadas dentro dele
 }
 
 saudacao()
+// Chamada da função -> pede ao computador para realizar as tarefas que voce ensinou
 
 function somar (num1, num2, num3) {
     let soma = num1 + num2 + num3 // variável chamada soma
@@ -32,14 +36,14 @@ function somar (num1, num2, num3) {
 
 let resultado = somar(5,6,9)
 
-console.log("O resultado é: " + resultado);*/
+console.log("O resultado é: " + resultado);
 
 // são funções (método):
 //window.alert("jdjdjd")
 //console.log("jsjkks")
 //window.prompt("jskkksk")
 
-// OBJETO -> conjunto de propriedades (conjunto entre {} e valores (x=y))
+// OBJETO -> conjunto de propriedades (conjunto entre {} e valores (x:y))
 
 let professor = {
     nome: "Thiago",
@@ -47,5 +51,5 @@ let professor = {
     idade: 25
 }
 
-professor.nome = prompt("Digite o nome:")
-professor.sobrenome = prompt("Digite o sobrenome:")
+//professor.nome = prompt("Digite o nome:")
+//professor.sobrenome = prompt("Digite o sobrenome:")
