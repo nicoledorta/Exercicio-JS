@@ -3,6 +3,7 @@
 
 // \n : quebra de linha
 
+// fazer o menu repetir usando do while ou somemte while
 
 //if-else
 function exercicioPar() {
@@ -76,8 +77,6 @@ function tabuada() {
         console.log("Número invalido. Por favor, digite um número válido.")
     }
 
-    console.log(isNaN("Hello World"));
-    console.log(isNaN(123));
 }
 
 function fibonacci() {
@@ -107,67 +106,42 @@ function idade() {
     console.log("Você é maior de idade. Sua idade é: " + idade);
 }
 
-let opcao = window.prompt("MENU\nDigite a opção desejada:\n\n1- Exercicio par ou ímpar\n2- Exercício boletim do aluno\n3- Exercício de descontos\n4- Exercício de tabuada\n5- Exercício da sequência de Fibonacci\n6- Exercício da maioridade\n Digite 'sair' para encerrar")
+let opcao;
 
-switch (opcao) {
-    case "1":
-        exercicioPar()
-        break;
+do {
+    opcao = window.prompt("MENU\nDigite a opção desejada:\n\n1- Exercicio par ou ímpar\n2- Exercício boletim do aluno\n3- Exercício de descontos\n4- Exercício de tabuada\n5- Exercício da sequência de Fibonacci\n6- Exercício da maioridade\n Digite 'sair' para encerrar")
 
-    default:
-        break;
+    switch (opcao) {
+        case "1":
+            exercicioPar()
+            break;
 
-}
+        case "2":
+            boletim()
+            break;
 
-switch (opcao) {
-    case "2":
-        boletim()
-        break;
+        case "3":
+            desconto()
+            break;
 
-    default:
-        break;
+        case "4":
+            tabuada()
+            break;
 
-}
+        case "5":
+            fibonacci()
+            break;
 
-switch (opcao) {
-    case "3":
-        desconto()
-        break;
+        case "6":
+            idade()
+            break;
 
-    default:
-        break;
+        default:
+            break;
 
-}
+    }
 
-switch (opcao) {
-    case "4":
-        tabuada()
-        break;
+} while (opcao != "sair");
 
-    default:
-        break;
-
-}
-
-switch (opcao) {
-    case "5":
-        fibonacci()
-        break;
-
-    default:
-        break;
-
-}
-
-switch (opcao) {
-    case "6":
-        idade()
-        break;
-
-    default:
-        break;
-
-}
-
-
+console.log("Voce digitou sair. O programa foi encerrado.")
 
